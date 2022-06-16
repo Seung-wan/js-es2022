@@ -66,6 +66,7 @@ console.log(matches[0])
 ## top-level await
 
 상위 레벨에서 async 없이도 await을 사용할 수 있습니다.
+(package.json -> "type": "module" 추가)
 
 ```
 import fetch from 'node-fetch'
